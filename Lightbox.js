@@ -16,7 +16,7 @@ $overlay.append($caption);
 $("body").append($overlay);
 
 //Capture the click eventon a link and add to image
-$("imageGallery a").click(function(event){
+$("#imageGallery a").click(function(event){
   event.preventDefault();//Stop link from following through
   var imageLocation = $(this).attr("href"); //"This" Images full photo
 
